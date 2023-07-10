@@ -1,0 +1,44 @@
+@import "Variables.scss";
+
+.introduction-wrapper{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:$btn-color;
+    h1, h2{
+        font-size:110px;
+    }
+    
+}
+.link-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    p{
+        margin-right: 50px;
+        font-size: 20px;
+    }
+}
+.journal-img-wrapper{
+    margin-top:60px;
+    width:1100px;
+    height:550px;
+    background-color: white;
+    border-top-left-radius: 550px;  
+    border-top-right-radius: 550px; 
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    border-bottom: 0;
+    img{
+        width:260px;
+        height:330px;
+       transform-origin:top;
+        transform: translate(30%, -13%) rotate(15deg) ;
+    }
+}

@@ -1,2 +1,7 @@
-$btn-color:#313b4e;
-$btn-hover-color:#959591;
+$btn-color: #313b4e;
+$btn-hover-color: #959591;
+.egg {
+  background: white;
+  display: block;
+  border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
+}
